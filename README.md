@@ -85,11 +85,3 @@ and visually confirm the database changes made by the Node.js script.
 **Rakshit Bansal**
 B.Tech CSE, VIT University
 
-
-After saving this file, run these commands to add and push it to GitHub:
-
-```bash
-git add README.md
-git commit -m "Added README"
-git push
-```
