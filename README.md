@@ -28,9 +28,10 @@ Before running the project, ensure that:
 - Node.js and npm are installed
 
 ## Installation
-1. Clone this repository:
-   ```bash
+1. Clone this repository:  
+```bash
    git clone https://github.com/<your-username>/mongodb-student-crud.git
+```
 2. Navigate into the folder:
 
 ```bash
