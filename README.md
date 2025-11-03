@@ -16,13 +16,11 @@ It manages a collection of student records containing roll numbers, names, depar
 4. **Delete:** Remove specific student entries
 
 ## Folder Structure
-mongodb-student-crud/
-├── app.js
-├── package.json
-└── README.md
+mongodb-student-crud/  
+├── app.js  
+├── package.json  
+└── README.md  
 
-markdown
-Copy code
 
 ## Prerequisites
 Before running the project, ensure that:
@@ -33,39 +31,39 @@ Before running the project, ensure that:
 1. Clone this repository:
    ```bash
    git clone https://github.com/<your-username>/mongodb-student-crud.git
-Navigate into the folder:
+2. Navigate into the folder:
 
-bash
-Copy code
+```bash
 cd mongodb-student-crud
-Install required dependencies:
+```
 
-bash
-Copy code
+3. Install required dependencies:
+
+```bash
 npm install
-Running the Project
+```
+## Running the Project
 Make sure MongoDB service is running on your machine.
 
 Run the Node.js script:
 
-bash
-Copy code
+```bash
 node app.js
+```
 You’ll see the following operations performed:
 
-Insertion of a new student
+- Insertion of a new student
 
-Retrieval of all students
+- Retrieval of all students
 
-Update of marks for a student
+- Update of marks for a student
 
-Deletion of a student
+- Deletion of a student
 
 All console logs will confirm successful CRUD operations.
 
 Example Output
-sql
-Copy code
+```sql
 Connecting to MongoDB...
 Connected successfully!
 Inserted new student! new ObjectId('...')
@@ -73,22 +71,19 @@ All Students: [ ... ]
 Updated student marks! 1
 Deleted student! 1
 Connection closed!
-Verification in MongoDB Compass
+```
+## Verification in MongoDB Compass
 You can open MongoDB Compass, navigate to:
 
-nginx
-Copy code
+```nginx
 collegeDB > students
+```
 and visually confirm the database changes made by the Node.js script.
 
-Author
-Rakshit Bansal
+## Author
+**Rakshit Bansal**
 B.Tech CSE, VIT University
 
-yaml
-Copy code
-
----
 
 After saving this file, run these commands to add and push it to GitHub:
 
@@ -96,3 +91,4 @@ After saving this file, run these commands to add and push it to GitHub:
 git add README.md
 git commit -m "Added README"
 git push
+```
