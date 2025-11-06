@@ -83,5 +83,5 @@ and visually confirm the database changes made by the Node.js script.
 
 ## Author
 **Rakshit Bansal**
-B.Tech CSE, VIT University
+
 
